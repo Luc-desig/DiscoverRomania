@@ -100,7 +100,141 @@
     }
 }
 
+@media (max-width: 1200px) {
+    .hd3 .card3 {
+            background: rgba(189, 202, 214, 0.6);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            outline: solid 1px white;
+            max-width: 298px;
+            position: absolute;
+            z-index: auto;
+            top: 25em;
+            left: 2.5em;
+            width: 100%;
+            height: auto;
+    }
+}
+
+@media (max-width: 991px) {
+    .hd3 .card3 {
+            background: rgba(189, 202, 214, 0.6);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            outline: solid 1px white;
+            max-width: 298px;
+            position: absolute;
+            z-index: auto;
+            top: 25em;
+            left: 1.3em;
+            width: 100%;
+            height: auto;
+    }
+}
+
+@media (max-width: 1200px) {
+    .hd3 .card2 {
+            background: rgba(189, 202, 214, 0.6);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            outline: solid 1px white;
+            max-width: 298px;
+            position: absolute;
+            z-index: auto;
+            top: 2em;
+            left: -4em;
+            width: 100%;
+            height: auto;
+    }
+}
+
+@media (max-width: 991px) {
+    .hd3 .card2 {
+            background: rgba(189, 202, 214, 0.6);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            outline: solid 1px white;
+            max-width: 298px;
+            position: absolute;
+            z-index: auto;
+            top: 2em;
+            left: 1.3em;
+            width: 100%;
+            height: auto;
+    }
+}
+
+@media (max-width: 991px) {
+    .hd3 .card1 {
+            background: rgba(189, 202, 214, 0.6);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            outline: solid 1px white;
+            max-width: 298px;
+            position: absolute;
+            z-index: auto;
+            top: 24em;
+            left: 1.3em;
+            width: 100%;
+            height: auto;
+    }
+}
+
+@media (max-width: 450px) {
+    .hd3 .card1 {
+            background: rgba(189, 202, 214, 0.6);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            outline: solid 1px white;
+            max-width: 298px;
+            position: absolute;
+            z-index: auto;
+            top: 22em;
+            left: 2em;
+            width: 100%;
+            height: auto;
+    }
+}
+
+@media (max-width: 450px) {
+    .hd3 .card2 {
+            background: rgba(189, 202, 214, 0.6);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            outline: solid 1px white;
+            max-width: 298px;
+            position: absolute;
+            z-index: auto;
+            top: 2em;
+            left: 2em;
+            width: 100%;
+            height: auto;
+    }
+}
+
+@media (max-width: 450px) {
+    .hd3 .card3 {
+            background: rgba(189, 202, 214, 0.6);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            outline: solid 1px white;
+            max-width: 298px;
+            position: absolute;
+            z-index: auto;
+            top: 20em;
+            left: 2em;
+            width: 100%;
+            height: auto;
+    }
+}
+
 @media (max-width: 800px) {
+    .harta {
+        margin-top: -220px;
+    }
+}
+
+@media (max-width: 991px) {
     .harta {
         margin-top: -220px;
     }
@@ -226,12 +360,81 @@ header {
     margin-bottom: 30px;
 }
 
+@media (max-width: 1200px) {
+    .horses {
+        width: 500px;
+    }
+}
+
+@media (max-width: 991px) {
+    .horses {
+        width: 370px;
+        margin-top: 36px;
+    }
+}
+
+@media (max-width: 800px) {
+    .horses {
+        width: 684px;
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    .horses {
+        width: 516px;
+    }
+}
+
+@media (max-width: 550px) {
+    .horses {
+        width: 481px;
+    }
+}
+
+@media (max-width: 450px) {
+    .horses {
+        width: 366px;
+    }
+}
+
 .bautura {
     border-radius: 20px;
     width: 100%;
     height: auto;
     max-height: 712px;
     max-width: 481px;
+}
+
+@media (max-width: 1200px) {
+    .bautura {
+        margin-left: 20px;
+        width: 416px;
+        margin-top: 22px;
+    }
+}
+
+@media (max-width: 991px) {
+    .bautura {
+        width: 300px;
+        height: 600px;
+    }
+}
+
+@media (max-width: 800px) {
+    .bautura {
+        width: 481px;
+        height: 712px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 450px) {
+    .bautura {
+        width: 366px;
+        height: 549px;
+    }
 }
 
 .card1 {
@@ -303,6 +506,13 @@ header {
     color: #251B19;
     margin-top: 15px;
     padding: 0px 30px 30px 30px;
+}
+
+@media (max-width: 992px) {
+    .fontp3 {
+        width: 298.8px;
+        height: 102px;
+    }
 }
 
 /* 3rd section */

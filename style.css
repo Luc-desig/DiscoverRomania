@@ -388,7 +388,7 @@ header {
 
 @media (max-width: 550px) {
     .horses {
-        width: 481px;
+        width: 461px;
     }
 }
 
@@ -427,6 +427,12 @@ header {
         height: 712px;
         margin-left: 0px;
         margin-top: 0px;
+    }
+}
+
+@media (max-width: 550px) {
+    .bautura {
+        width: 461px;
     }
 }
 

@@ -126,8 +126,7 @@
             position: absolute;
             z-index: auto;
             top: 25em;
-            left: 1.3em;
-            width: 100%;
+            width: 80%;
             height: auto;
     }
 }
@@ -157,9 +156,9 @@
             max-width: 298px;
             position: absolute;
             z-index: auto;
-            top: 2em;
-            left: 1.3em;
-            width: 100%;
+            top: 3.5em;
+            left: 2.5em;
+            width: 80%;
             height: auto;
     }
 }
@@ -228,9 +227,17 @@
     }
 }
 
+@media (max-width: 1200px) {
+    .harta {
+        padding-top: 50px;
+    }
+}
+
 @media (max-width: 800px) {
     .harta {
-        margin-top: -220px;
+        padding-left: 60px;
+        /* margin-top: -220px; */
+        padding-top: 0px;
     }
 }
 
@@ -239,6 +246,8 @@
         margin-top: -220px;
     }
 }
+
+
 
 @media (max-width: 800px) {
     .one {
@@ -270,7 +279,7 @@ header {
     .herofont {
         font-family: "Playfair Display", serif;
         font-optical-sizing: auto;
-        font-size: 25px;
+        font-size: 29px;
         font-weight: 900;
         font-style: normal;
       }
